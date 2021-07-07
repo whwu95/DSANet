@@ -2,7 +2,9 @@
 ![1](DSANet.png)  
 
 ## Overview 
-We release the code of the [DSANet](https://arxiv.org/abs/2105.12085) (Dynamic Segment Aggregation Network). The core code to implement the Dynamic Segment Aggregation Module is `codes/models/modules_maker/DSA.py`. 
+We release the code of the [DSANet](https://arxiv.org/abs/2105.12085) (Dynamic Segment Aggregation Network). We introduce the DSA module to capture relationship among snippets for video-level representation learning. Equipped with DSA modules, the top-1 accuracy of I3D ResNet-50 is improved to 78.2% on Kinetics-400. 
+
+The core code to implement the Dynamic Segment Aggregation Module is `codes/models/modules_maker/DSA.py`. 
 
 **[July 7, 2021]**  We release the core code of DSANet.
 
