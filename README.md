@@ -72,7 +72,7 @@ This implementation supports multi-gpu, `DistributedDataParallel` training, whic
 - For example, to train DSANet with 8 gpus, you can run:
 
 ```sh
-bash dist_train_recognizer.sh configs/kinetics/r50_e100_s1_8.py 8
+bash dist_train_recognizer.sh configs/kinetics/r50_e100.py 8
 ```
 
 
